@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "BarlowSemiCondensed-SemiBold";
+  src: url("/fonts/BarlowSemiCondensed-SemiBold.ttf") format("truetype");
+}
+
+@theme {
+  --font-barlow-semicondensed: "BarlowSemiCondensed-SemiBold";
+  --animate-scaling: scaling 1.5s ease-in-out infinite;
+
+  @keyframes scaling {
+    0% {
+      transform: scale(0.8);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.8);
+    }
+  }
+}
+
+@layer components {
+  .shadow-layers {
+    box-shadow: 1px 1px 0px 30px rgba(255, 255, 255, 0.04),
+      1px 1px 0px 60px rgba(255, 255, 255, 0.04),
+      1px 1px 0px 100px rgba(255, 255, 255, 0.04);
+
+    @variant md {
+      box-shadow: 1px 1px 0px 60px rgba(255, 255, 255, 0.04),
+        1px 1px 0px 120px rgba(255, 255, 255, 0.04),
+        1px 1px 0px 200px rgba(255, 255, 255, 0.04);
+    }
+  }
+}
+
+body {
+  min-height: 100dvh;
+  background: #1f3756;
+  background: linear-gradient(
+    180deg,
+    rgba(31, 55, 86, 1) 13%,
+    rgba(20, 21, 57, 1) 77%
+  );
+}
+
+@media (min-width: 768px) {
+  body {
+    background: #1f3756;
+    background: radial-gradient(
+      circle,
+      rgba(31, 55, 86, 1) 13%,
+      rgba(20, 21, 57, 1) 77%
+    );
+  }
+}
+
+#root {
+  min-height: 100dvh;
+}
