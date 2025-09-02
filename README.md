@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/rock-paper-scissors-game-solution-b3-9NIlNoR)
+- Live Site URL: [Live URL](https://rock-paper-scissors-game-pex-dev.netlify.app/)
 
 ## My process
 
@@ -43,4 +43,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Pex-Dev](https://www.frontendmentor.io/profile/Pex-Dev)
