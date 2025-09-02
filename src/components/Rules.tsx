@@ -19,7 +19,7 @@ export default function Rules() {
       {showModal && (
         <div className="absolute top-0 left-0  min-h-dvh min-w-dvw bg-black/50 flex justify-center items-center z-10">
           <div className="bg-white p-8 flex flex-col justify-between md:w-[400px] min-h-dvh min-w-dvw md:min-h-auto md:min-w-auto md:h-[400px] md:rounded-md">
-            <header className="flex mt-10 md:mt-0 justify-between items-center">
+            <header className="flex mt-10 md:mt-0 justify-center md:justify-between items-center">
               <h2 className="uppercase text-slate-700 text-4xl text-center">
                 Rules
               </h2>
