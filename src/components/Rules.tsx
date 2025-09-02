@@ -24,9 +24,9 @@ export default function Rules() {
                 Rules
               </h2>
               <button
-                className="font-barlow-semicondensed"
                 aria-label="Close rules modal"
                 onClick={() => setShowModal(false)}
+                className="font-barlow-semicondensed hidden md:block"
               >
                 <img src={iconClose} alt="Close" />
               </button>
